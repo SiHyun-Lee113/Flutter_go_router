@@ -7,8 +7,8 @@ class BasicScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultLayout(
-      body: Column(
-        children: [],
+      body: Center(
+        child: Text('Basic Screen'),
       ),
     );
   }
